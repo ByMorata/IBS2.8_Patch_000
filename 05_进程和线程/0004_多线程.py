@@ -13,7 +13,7 @@ def thread_loop(name):
 
 if __name__ == '__main__':
     print("Current Thread is %s , It is running..." % threading.current_thread().getName())
-    print("Changed The %s's name , now the new name is" % threading.current_thread().getName(), end=" ")
+    print("Changed The %s's name , now the new name is" % threading.current_thread().getName())
     threading.current_thread().setName("JasonThread")
     print("%s , it is also running..." % threading.current_thread().getName())
 
